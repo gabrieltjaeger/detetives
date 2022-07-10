@@ -16,7 +16,7 @@ main {
 
     grid-template-columns: repeat(24, 1fr);
     grid-template-rows: repeat(25, 1fr);
-    background-image: url(../tabuleiro.png);
+    background-image: url(../img/tabuleiro.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
