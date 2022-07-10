@@ -1,1 +1,180 @@
+:root {
+    font-size: 1rem;
+    --box-size: 1.5em;
+}
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.tabuleiro {
+    display: grid;
+
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(25, 1fr);
+    background-image: url(../tabuleiro.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: calc(var(--box-size) * 24);
+    height: calc(var(--box-size) * 25);
+    box-shadow:
+    0 0 0 0.085em #000000,
+    0 0 0 0.46em #B5310E,
+    0 0 0 0.63em #000000;
+}
+
+.comodo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    box-shadow:
+    inset 0 0 0 0.085em #000000,
+    inset 0 0 0 0.315em #B5310E,
+    inset 0 0 0 0.4em #000000;
+}
+
+.nome-comodo {
+    font-size: 0.6em;
+    font-weight: bolder;
+    color: #000000;
+    text-align: center;
+    background-color: #fff;
+    padding: 0.3em 0.6em;
+    border: #000000 solid 0.1em;
+    border-radius: 0.4em;
+}
+
+.estudio {
+    width: calc(var(--box-size) * 7);
+    height: calc(var(--box-size) * 4);
+    background-color: #8ad680;
+    grid-area: estudio;
+    grid-column: 1 / span 7;
+    grid-row: 1 / span 4;
+}
+
+.hall {
+    width: calc(var(--box-size) * 6);
+    height: calc(var(--box-size) * 7);
+    background-color: #d6d080;
+    grid-area: hall;
+    grid-column: 10 / span 6;
+    grid-row: 1 / span 7;
+}
+
+.living {
+    width: calc(var(--box-size) * 7);
+    height: calc(var(--box-size) * 6);
+    background-color: #9f28db;
+    grid-area: living;
+    grid-column: 18 / span 7;
+    grid-row: 1 / span 6;
+}
+
+.biblioteca {
+    width: calc(var(--box-size) * 7);
+    height: calc(var(--box-size) * 5);
+    background-color: #b48726;
+    grid-area: biblioteca;
+    grid-column: 1 / span 7;
+    grid-row: 7 / span 5;
+}
+
+.sala-de-jantar {
+    width: calc(var(--box-size) * 8);
+    height: calc(var(--box-size) * 7);
+    background-color: #80d698;
+    grid-area: sala-de-jantar;
+    grid-column: 17 / span 8;
+    grid-row: 10 / span 7;
+}
+
+.sala-de-bilhar {
+    width: calc(var(--box-size) * 6);
+    height: calc(var(--box-size) * 5);
+    background-color: #80c8d6;
+    grid-area: sala-de-bilhar;
+    grid-column: 1 / span 6;
+    grid-row: 13 / span 5;
+}
+
+.jardim-interior {
+    width: calc(var(--box-size) * 6);
+    height: calc(var(--box-size) * 5);
+    background-color: #8d80d6;
+    grid-area: jardim-interior;
+    grid-column: 1 / span 6;
+    grid-row: 20 / span 5;
+}
+
+.sala-de-baile {
+    width: calc(var(--box-size) * 8);
+    height: calc(var(--box-size) * 8);
+    background-color: #d680be;
+    grid-area: sala-de-baile;
+    grid-column: 9 / span 8;
+    grid-row: 18 / span 8;
+}
+
+.cozinha {
+    width: calc(var(--box-size) * 6);
+    height: calc(var(--box-size) * 6);
+    background-color: #b12d45;
+    grid-area: cozinha;
+    grid-column: 19 / span 6;
+    grid-row: 19 / span 6;
+}
+
+.coluna {
+    background: yellow;
+    width: var(--box-size);
+    height: var(--box-size);
+    box-sizing: border-box;
+    border: 0.0625em solid black;
+    border-style: inset;
+    
+}
+
+.personagem {
+    width: var(--box-size);
+    height: var(--box-size);
+    box-sizing: border-box;
+    grid-column: 1;
+    grid-row: 1;
+    background-image: url(../img/jogador.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    box-shadow: 0px 1px 50px -14px #000000;
+}
+
+.escarlate {
+    filter: invert(12%) sepia(48%) saturate(6483%) hue-rotate(7deg) brightness(79%) contrast(128%);
+}
+
+.ameixa {
+    filter: invert(5%) sepia(77%) saturate(2720%) hue-rotate(283deg) brightness(100%) contrast(142%);
+}
+
+.mostarda {
+    filter: invert(16%) sepia(72%) saturate(1000%) hue-rotate(35deg) brightness(96%) contrast(103%);
+}
+
+.pavao {
+    filter: invert(12%) sepia(75%) saturate(5000%) hue-rotate(235deg) brightness(50%) contrast(137%);
+}
+
+.verde {
+    filter: invert(14%) sepia(40%) saturate(3337%) hue-rotate(100deg) brightness(99%) contrast(107%);
+}
+
+.branco {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(66deg) brightness(109%) contrast(109%);
+}
