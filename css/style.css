@@ -163,16 +163,6 @@ main {
     grid-row: 19 / span 6;
 }
 
-.coluna {
-    background: yellow;
-    width: var(--box-size);
-    height: var(--box-size);
-    box-sizing: border-box;
-    border: 0.0625em solid black;
-    border-style: inset;
-    
-}
-
 .personagem {
     width: var(--box-size);
     height: var(--box-size);
