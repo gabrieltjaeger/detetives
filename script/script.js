@@ -29,10 +29,11 @@ window.tabuleiro = {
     '(23, 1)': 'parede', '(23, 2)': 'ladrilho-inv', '(23, 3)': 'ladrilho-inv', '(23, 4)': 'ladrilho-inv', '(23, 5)': 'ladrilho-inv', '(23, 6)': 'parede', '(23, 7)': 'ladrilho', '(23, 8)': 'ladrilho', '(23, 9)': 'ladrilho', '(23, 10)': 'parede', '(23, 11)': 'ladrilho-inv', '(23, 12)': 'ladrilho-inv', '(23, 13)': 'ladrilho-inv', '(23, 14)': 'ladrilho-inv', '(23, 15)': 'ladrilho-inv', '(23, 16)': 'parede', '(23, 17)': 'ladrilho', '(23, 18)': 'ladrilho', '(23, 19)': 'parede', '(23, 20)': 'ladrilho-inv', '(23, 21)': 'ladrilho-inv', '(23, 22)': 'ladrilho-inv', '(23, 23)': 'ladrilho-inv', '(23, 24)': 'parede', '(23, 25)': 'nada',
     '(24, 1)': 'parede', '(24, 2)': 'parede', '(24, 3)': 'parede', '(24, 4)': 'parede', '(24, 5)': 'parede', '(24, 6)': 'parede', '(24, 7)': 'nada', '(24, 8)': 'ladrilho', '(24, 9)': 'nada', '(24, 10)': 'parede', '(24, 11)': 'parede', '(24, 12)': 'parede', '(24, 13)': 'parede', '(24, 14)': 'parede', '(24, 15)': 'parede', '(24, 16)': 'parede', '(24, 17)': 'nada', '(24, 18)': 'ladrilho', '(24, 19)': 'nada', '(24, 20)': 'parede', '(24, 21)': 'parede', '(24, 22)': 'parede', '(24, 23)': 'parede', '(24, 24)': 'parede', '(24, 25)': 'nada'
 }
-window.cont = 0;
+
 window.jogador = document.getElementById("jogador");
 window.personagemAJogar = "";
 window.movimentos = 0;
+window.cont = 0;
 
 function dado() {
     return Math.floor(Math.random() * 6) + 1;
