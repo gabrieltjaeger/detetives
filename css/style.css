@@ -3,29 +3,64 @@
     --box-size: 1.5em;
 }
 
-main {
+.painel-de-controle {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1em;
+    width: 10em;
+    height: 10em;
+    background-color: #843d3d;
+    border-radius: var(--box-size);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
-.tabuleiro {
+.parede {
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+.nada {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: #000000;
+    box-sizing: border-box;
+    border: #B5310E .5em solid;
+    border-style: ridge;
+}
+
+.porta {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-image: url("../img/porta.png");
+    background-size: contain;
+}
+
+.ladrilho {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-image: url("../img/ladrilho.png");
+    background-size: contain;
+}
+
+#tabuleiro {
     display: grid;
 
     grid-template-columns: repeat(24, 1fr);
     grid-template-rows: repeat(25, 1fr);
-    background-image: url(../img/tabuleiro.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #8d80d6;
     width: calc(var(--box-size) * 24);
     height: calc(var(--box-size) * 25);
-    box-shadow:
-    0 0 0 0.085em #000000,
-    0 0 0 0.46em #B5310E,
-    0 0 0 0.63em #000000;
+    border: #B5310E .5em solid;
+    border-style: ridge;
 }
 
 .comodo {
@@ -34,10 +69,6 @@ main {
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
-    box-shadow:
-    inset 0 0 0 0.085em #000000,
-    inset 0 0 0 0.315em #B5310E,
-    inset 0 0 0 0.4em #000000;
 }
 
 .nome-comodo {
@@ -148,6 +179,7 @@ main {
     box-sizing: border-box;
     grid-column: 1;
     grid-row: 1;
+    color: transparent;
     background-image: url(../img/jogador.svg);
     background-repeat: no-repeat;
     background-position: center;
