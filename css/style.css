@@ -3,22 +3,60 @@
     --box-size: 1.5em;
 }
 
+body {
+    user-select: none;
+    background: linear-gradient(60deg, #ce85fc 0%, #65f677 100%) no-repeat center center fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .painel-de-controle {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    margin-right: 1em;
-    width: 10em;
-    height: 10em;
+    z-index: 1;
+    width: calc(var(--box-size) * 6);
+    height: calc(var(--box-size) * 7);
     background-color: #843d3d;
-    border-radius: var(--box-size);
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+
+    color: #fff;
+    box-sizing: border-box;
+
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.3);
+    padding: 1em;
+    border: #B5310E .5em solid;
+    border-style: ridge;
+    grid-column: 10 / span 6;
+    grid-row: 9 / span 7;
+}
+
+.painel-de-controle h3 {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 0.15em;
+}
+
+.painel-de-controle p {
+    margin-bottom: .5em;
+}
+
+.painel-de-controle p:last-of-type {
+    margin-bottom: 0;
+}
+
+.painel-de-controle p::before {
+    content: "•";
+    color: #fff;
+    font-size: 1em;
+    margin-right: 0.5em;
 }
 
 main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -51,9 +89,17 @@ main {
     background-size: contain;
 }
 
+.passagem {
+    width: var(--box-size);
+    height: var(--box-size);
+
+    background-color: rgb(93, 66, 66);
+}
+
 #tabuleiro {
     display: grid;
-
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.3);
+    outline: rgb(255, 255, 255, .35) solid 5px;
     grid-template-columns: repeat(24, 1fr);
     grid-template-rows: repeat(25, 1fr);
     background-color: #8d80d6;
@@ -61,6 +107,7 @@ main {
     height: calc(var(--box-size) * 25);
     border: #B5310E .5em solid;
     border-style: ridge;
+    position: relative;
 }
 
 .comodo {
