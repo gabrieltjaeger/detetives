@@ -18,7 +18,7 @@ window.tabuleiro = {
     '(12, 1)': 'parede', '(12, 2)': 'ladrilho-inv', '(12, 3)': 'ladrilho-inv', '(12, 4)': 'ladrilho-inv', '(12, 5)': 'ladrilho-inv', '(12, 6)': 'ladrilho-inv', '(12, 7)': 'porta', '(12, 8)': 'ladrilho', '(12, 9)': 'nada', '(12, 10)': 'nada', '(12, 11)': 'nada', '(12, 12)': 'nada', '(12, 13)': 'nada', '(12, 14)': 'nada', '(12, 15)': 'nada', '(12, 16)': 'ladrilho', '(12, 17)': 'ladrilho', '(12, 18)': 'parede', '(12, 19)': 'ladrilho-inv', '(12, 20)': 'ladrilho-inv', '(12, 21)': 'ladrilho-inv', '(12, 22)': 'ladrilho-inv', '(12, 23)': 'ladrilho-inv', '(12, 24)': 'ladrilho-inv', '(12, 25)': 'parede',
     '(13, 1)': 'parede', '(13, 2)': 'ladrilho-inv', '(13, 3)': 'ladrilho-inv', '(13, 4)': 'ladrilho-inv', '(13, 5)': 'ladrilho-inv', '(13, 6)': 'ladrilho-inv', '(13, 7)': 'porta', '(13, 8)': 'ladrilho', '(13, 9)': 'nada', '(13, 10)': 'nada', '(13, 11)': 'nada', '(13, 12)': 'nada', '(13, 13)': 'nada', '(13, 14)': 'nada', '(13, 15)': 'nada', '(13, 16)': 'ladrilho', '(13, 17)': 'ladrilho', '(13, 18)': 'parede', '(13, 19)': 'ladrilho-inv', '(13, 20)': 'ladrilho-inv', '(13, 21)': 'ladrilho-inv', '(13, 22)': 'ladrilho-inv', '(13, 23)': 'ladrilho-inv', '(13, 24)': 'ladrilho-inv', '(13, 25)': 'parede',
     '(14, 1)': 'parede', '(14, 2)': 'ladrilho-inv', '(14, 3)': 'ladrilho-inv', '(14, 4)': 'ladrilho-inv', '(14, 5)': 'ladrilho-inv', '(14, 6)': 'ladrilho-inv', '(14, 7)': 'parede', '(14, 8)': 'ladrilho', '(14, 9)': 'nada', '(14, 10)': 'nada', '(14, 11)': 'nada', '(14, 12)': 'nada', '(14, 13)': 'nada', '(14, 14)': 'nada', '(14, 15)': 'nada', '(14, 16)': 'ladrilho', '(14, 17)': 'ladrilho', '(14, 18)': 'parede', '(14, 19)': 'ladrilho-inv', '(14, 20)': 'ladrilho-inv', '(14, 21)': 'ladrilho-inv', '(14, 22)': 'ladrilho-inv', '(14, 23)': 'parede', '(14, 24)': 'parede', '(14, 25)': 'parede',
-    '(15, 1)': 'nada', '(15, 2)': 'parede', '(15, 3)': 'parede', '(15, 4)': 'parede', '(15, 5)': 'parede', '(15, 6)': 'parede', '(15, 7)': 'parede', '(15, 8)': 'ladrilho', '(15, 9)': 'ladrilho', '(15, 10)': 'ladrilho', '(15, 11)': 'ladrilho', '(15, 12)': 'ladrilho', '(15, 13)': 'ladrilho', '(15, 14)': 'ladrilho', '(15, 15)': 'ladrilho', '(15, 16)': 'ladrilho', '(15, 17)': 'ladrilho', '(15, 18)': 'porta', '(15, 19)': 'ladrilho-inv', '(15, 20)': 'ladrilho-inv', '(15, 21)': 'ladrilho-inv', '(15, 22)': 'ladrilho-inv', '(15, 23)': 'parede', '(15, 24)': 'ladrilho', '(15, 25)': 'ladrilho',
+    '(15, 1)': 'nada', '(15, 2)': 'parede', '(15, 3)': 'parede', '(15, 4)': 'parede', '(15, 5)': 'parede', '(15, 6)': 'parede', '(15, 7)': 'parede', '(15, 8)': 'ladrilho', '(15, 9)': 'nada', '(15, 10)': 'nada', '(15, 11)': 'nada', '(15, 12)': 'nada', '(15, 13)': 'nada', '(15, 14)': 'nada', '(15, 15)': 'nada', '(15, 16)': 'ladrilho', '(15, 17)': 'ladrilho', '(15, 18)': 'porta', '(15, 19)': 'ladrilho-inv', '(15, 20)': 'ladrilho-inv', '(15, 21)': 'ladrilho-inv', '(15, 22)': 'ladrilho-inv', '(15, 23)': 'parede', '(15, 24)': 'ladrilho', '(15, 25)': 'ladrilho',
     '(16, 1)': 'nada', '(16, 2)': 'ladrilho', '(16, 3)': 'ladrilho', '(16, 4)': 'ladrilho', '(16, 5)': 'ladrilho', '(16, 6)': 'ladrilho', '(16, 7)': 'ladrilho', '(16, 8)': 'ladrilho', '(16, 9)': 'ladrilho', '(16, 10)': 'ladrilho', '(16, 11)': 'ladrilho', '(16, 12)': 'ladrilho', '(16, 13)': 'ladrilho', '(16, 14)': 'ladrilho', '(16, 15)': 'ladrilho', '(16, 16)': 'ladrilho', '(16, 17)': 'ladrilho', '(16, 18)': 'parede', '(16, 19)': 'parede', '(16, 20)': 'porta', '(16, 21)': 'parede', '(16, 22)': 'parede', '(16, 23)': 'parede', '(16, 24)': 'ladrilho', '(16, 25)': 'nada',
     '(17, 1)': 'ladrilho', '(17, 2)': 'ladrilho', '(17, 3)': 'ladrilho', '(17, 4)': 'ladrilho', '(17, 5)': 'ladrilho', '(17, 6)': 'ladrilho', '(17, 7)': 'ladrilho', '(17, 8)': 'ladrilho', '(17, 9)': 'ladrilho', '(17, 10)': 'parede', '(17, 11)': 'parede', '(17, 12)': 'parede', '(17, 13)': 'porta', '(17, 14)': 'parede', '(17, 15)': 'parede', '(17, 16)': 'ladrilho', '(17, 17)': 'ladrilho', '(17, 18)': 'ladrilho', '(17, 19)': 'ladrilho', '(17, 20)': 'ladrilho', '(17, 21)': 'ladrilho', '(17, 22)': 'ladrilho', '(17, 23)': 'ladrilho', '(17, 24)': 'ladrilho', '(17, 25)': 'nada',
     '(18, 1)': 'nada', '(18, 2)': 'parede', '(18, 3)': 'parede', '(18, 4)': 'parede', '(18, 5)': 'parede', '(18, 6)': 'porta', '(18, 7)': 'ladrilho', '(18, 8)': 'ladrilho', '(18, 9)': 'ladrilho', '(18, 10)': 'porta', '(18, 11)': 'ladrilho-inv', '(18, 12)': 'ladrilho-inv', '(18, 13)': 'ladrilho-inv', '(18, 14)': 'ladrilho-inv', '(18, 15)': 'parede', '(18, 16)': 'ladrilho', '(18, 17)': 'ladrilho', '(18, 18)': 'ladrilho', '(18, 19)': 'ladrilho', '(18, 20)': 'ladrilho', '(18, 21)': 'ladrilho', '(18, 22)': 'ladrilho', '(18, 23)': 'ladrilho', '(18, 24)': 'nada', '(18, 25)': 'nada',
@@ -52,7 +52,7 @@ function setPosition(objeto, x, y) {
 }
 
 function atualizarJogador() {
-    window.jogador.innerHTML = `Jogador: ${window.personagemAJogar.innerHTML}\n Movimentos: ${window.movimentos}`;
+    window.jogador.innerHTML = `<h3>Jogador:</h3> <p>${window.personagemAJogar.innerHTML}</p> <h3>Movimentos:</h3> <p>${window.movimentos}</p>`;
 }
 
 function getPosition(objeto) {
@@ -217,6 +217,12 @@ for (let i = 1; i <= 25; i++) {
                 nada.classList.add('nada');
                 setPosition(nada, i, j);
                 document.getElementById('tabuleiro').appendChild(nada);
+                break;
+            case "passagem":
+                let passagem = document.createElement('div');
+                passagem.classList.add('passagem');
+                setPosition(passagem, i, j);
+                document.getElementById('tabuleiro').appendChild(passagem);
                 break;
             default:
                 break;
